@@ -1,0 +1,67 @@
+body{
+    background-image: url(img/images.jpg);
+    color: white;
+    
+}
+.highlight{
+    color: rgba(185, 3, 3, 0.781);
+   font-size: 50px;
+    
+}
+.high{
+    font-size: 30px;
+}
+.topnav{
+    overflow: hidden;
+    background-color: rgb(24, 21, 13);
+}
+.topnav a{
+    float: left;
+    color: rgb(241, 241, 241);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav a:hover{
+    background-color: rgb(248, 248, 248);
+    color: rgb(14, 12, 17);
+}
+.topnav a.active{
+    background-color: rgb(172, 27, 27);
+    color: rgb(253, 253, 255);
+}
+.firstpart{
+    text-align: center;
+
+}
+.sign{
+    background-position: center;
+    margin-top: 10px;
+    
+}
+.signn{ 
+    width: 40%;
+    height: 10%;
+    float: left;
+    margin-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 50px; 
+    box-shadow: 10px 10px 40px grey;
+}
+#signin{
+    border-left: 7px solid;
+    border-image-slice: 1; 
+    padding-bottom: 70px;
+}
+#signup{
+        border-left: 7px solid;
+        border-image-slice: 1; 
+        padding-bottom: 50px;
+    }
+    
+.button{
+     text-decoration: none;
+     color: white;
+}
